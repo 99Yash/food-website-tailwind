@@ -11,7 +11,7 @@ import { MdFavorite, MdHelp } from "react-icons/md";
 import { FaWallet, FaUserFriends } from "react-icons/fa";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false); //? for the mobile navbar(hamburger)
 
   return (
     <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 ">
@@ -39,7 +39,7 @@ const Navbar = () => {
         <BsFillCartFill size={20} className="mr-2" />
         Cart
       </button>
-      {/* //? mobile menu //? overlay */}
+      //? mobile overlay
       {nav ? (
         <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0 "></div>
       ) : (

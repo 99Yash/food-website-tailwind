@@ -1,6 +1,6 @@
 import Category from "./components/Category";
 import Food from "./components/Food";
-import HeadlineCards from "./components/HeadlineCards";
+import HeadlineCardsList from "./components/HeadlineCardsList";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <HeadlineCards />
+      <HeadlineCardsList />
       <Food />
       <Category />
     </div>
